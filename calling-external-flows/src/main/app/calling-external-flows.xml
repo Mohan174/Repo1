@@ -20,6 +20,6 @@ http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee
         </dw:transform-message>
     </flow>
     <flow name="calling-external-flowsFlow1">
-        <set-payload value="#[payload.b + ' world!']" doc:name="Set Payload"/>
+        <set-payload value="#[payload.b + ' world']" doc:name="Set Payload"/>
     </flow>
 </mule>
